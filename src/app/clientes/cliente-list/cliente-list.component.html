@@ -1,0 +1,15 @@
+<h3 class="title">
+  Clientes
+</h3>
+
+<div class="columns">
+  <div class="column">
+    <ul>
+      <li *ngFor="let cliente of clientes">
+        <h2 class="subtitle">{{cliente}}</h2>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<a class="button is-primary" routerLink="/clientes/nuevo">Nuevo cliente</a>

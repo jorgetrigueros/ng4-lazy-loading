@@ -1,0 +1,15 @@
+<h3 class="title">
+    Proveedores
+  </h3>
+  
+  <div class="columns">
+    <div class="column">
+      <ul>
+        <li *ngFor="let proveedor of proveedores">
+          <h2 class="subtitle">{{proveedor}}</h2>
+        </li>
+      </ul>
+    </div>
+  </div>
+  
+  <a class="button is-primary">Nuevo proveedor</a>
