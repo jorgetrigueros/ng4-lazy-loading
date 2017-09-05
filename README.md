@@ -1,6 +1,6 @@
 # Ng4LazyLoading
 
-Proyecto para mostrar la carga perezosa en Angular4
+Proyecto para mostrar la carga perezosa o "lay loading" en Angular4
 
 Más información:
 [http://ngserve.blogspot.com.es/2017/09/lazy-loading.html](http://ngserve.blogspot.com.es/2017/09/lazy-loading.html)
